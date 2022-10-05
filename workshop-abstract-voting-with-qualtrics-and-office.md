@@ -46,7 +46,7 @@ Once you have a file in this format, you can [import it into Qualtrics](https://
 
 ### Using Python and Jinja to generate the form
 
-We use Python and the [Jinja templating engine](https://palletsprojects.com/p/jinja/) to do this. In addition to the above, we insert a ``[Block]`` in between each batch of questions. Here's the code.
+We use Python and the [Jinja templating engine](https://palletsprojects.com/p/jinja/) to do this. In addition to the above, we insert a ``[[Block]]`` in between each batch of questions. Here's the code.
 
 ```Python
 import csv
